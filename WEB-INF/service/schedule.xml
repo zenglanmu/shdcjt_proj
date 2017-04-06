@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GBK"?>
+<module id="schedule" version="1.0.0">
+    <service-point id="deleteEML" interface="weaver.interfaces.schedule.CronJob">
+        <invoke-factory>
+            <construct class="weaver.system.DeleteEML">
+				<set property="cronExpr" value="0 59 23 * * ?"/>
+			</construct>
+        </invoke-factory>
+    </service-point>
+</module>

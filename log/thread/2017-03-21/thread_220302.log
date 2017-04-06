@@ -1,0 +1,273 @@
+2017-03-21 22:03:02 
+Full thread dump Java HotSpot(TM) Client VM (20.45-b01mixed mode ): 
+"resin-20" id="45" CPU Time=15600100 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:714)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-19" id="44" CPU Time=31200200 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:714)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-18" id="43" CPU Time=15600100 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:714)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"http--8080-10$1921282244" id="42" CPU Time=0 
+	java.lang.Thread.State: BLOCKED 
+		at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:406)
+		at java.net.ServerSocket.implAccept(ServerSocket.java:462)
+		at java.net.ServerSocket.accept(ServerSocket.java:430)
+		at com.caucho.vfs.QServerSocketWrapper.accept(QServerSocketWrapper.java:91)
+		at com.caucho.server.port.Port.accept(Port.java:1179)
+		at com.caucho.server.port.TcpConnection.run(TcpConnection.java:659)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-16" id="41" CPU Time=31200200 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:714)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-15" id="40" CPU Time=31200200 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:714)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-14" id="39" CPU Time=0 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:714)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-13" id="38" CPU Time=31200200 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:714)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"http--8080-9$1013149134" id="37" CPU Time=15662500400 
+	java.lang.Thread.State: BLOCKED 
+		at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:406)
+		at java.net.ServerSocket.implAccept(ServerSocket.java:462)
+		at java.net.ServerSocket.accept(ServerSocket.java:430)
+		at com.caucho.vfs.QServerSocketWrapper.accept(QServerSocketWrapper.java:91)
+		at com.caucho.server.port.Port.accept(Port.java:1179)
+		at com.caucho.server.port.TcpConnection.run(TcpConnection.java:659)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-11" id="36" CPU Time=0 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:714)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-destroy" id="35" CPU Time=0 
+	java.lang.Thread.State: WAITING 
+		at java.lang.Object.wait(Native Method)
+		at java.lang.Object.wait(Object.java:485)
+		at com.caucho.server.resin.Resin$DestroyThread.run(Resin.java:1779)
+"resin-port-8080" id="34" CPU Time=0 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.server.port.Port.run(Port.java:1523)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-port-6800" id="33" CPU Time=46800300 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.server.port.Port.run(Port.java:1523)
+		at java.lang.Thread.run(Thread.java:662)
+"Thread-9" id="32" CPU Time=0 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Thread.sleep(Native Method)
+		at com.weaver.onlinedebug.DebugLog$1.run(DebugLog.java:46)
+		at java.lang.Thread.run(Thread.java:662)
+"Thread-7" id="30" CPU Time=8127652100 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Thread.sleep(Native Method)
+		at weaver.system.ThreadWorkTimer.run(ThreadWorkTimer.java:32)
+"Thread-6" id="29" CPU Time=31200200 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Thread.sleep(Native Method)
+		at weaver.system.ThreadWorkTimer.run(ThreadWorkTimer.java:32)
+"Thread-5" id="28" CPU Time=15600100 
+	java.lang.Thread.State: RUNNABLE 
+		at sun.management.ThreadImpl.getThreadInfo1(Native Method)
+		at sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:154)
+		at sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:121)
+		at weaver.monitor.monitor.SysThreadMonitor.getMonitorInfo(SysThreadMonitor.java:32)
+		at weaver.monitor.threads.SysThreadThread.doThreadWork(SysThreadThread.java:15)
+		at weaver.system.ThreadWorkTimer.run(ThreadWorkTimer.java:33)
+"Thread-4" id="27" CPU Time=31200200 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Thread.sleep(Native Method)
+		at weaver.system.ThreadWorkTimer.run(ThreadWorkTimer.java:32)
+"Thread-3" id="26" CPU Time=0 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Thread.sleep(Native Method)
+		at weaver.system.ThreadWorkTimer.run(ThreadWorkTimer.java:32)
+"resin-block-manager-writer" id="25" CPU Time=0 
+	java.lang.Thread.State: WAITING 
+		at java.lang.Object.wait(Native Method)
+		at java.lang.Object.wait(Object.java:485)
+		at com.caucho.db.store.BlockManager$BlockManagerWriter.run(BlockManager.java:354)
+		at java.lang.Thread.run(Thread.java:662)
+"hmux-127.0.0.1:6800-0$572058606" id="24" CPU Time=0 
+	java.lang.Thread.State: BLOCKED 
+		at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:406)
+		at java.net.ServerSocket.implAccept(ServerSocket.java:462)
+		at java.net.ServerSocket.accept(ServerSocket.java:430)
+		at com.caucho.vfs.QServerSocketWrapper.accept(QServerSocketWrapper.java:91)
+		at com.caucho.server.port.Port.accept(Port.java:1179)
+		at com.caucho.server.port.TcpConnection.run(TcpConnection.java:659)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"hmux-127.0.0.1:6800-2$1197243100" id="23" CPU Time=0 
+	java.lang.Thread.State: BLOCKED 
+		at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:406)
+		at java.net.ServerSocket.implAccept(ServerSocket.java:462)
+		at java.net.ServerSocket.accept(ServerSocket.java:430)
+		at com.caucho.vfs.QServerSocketWrapper.accept(QServerSocketWrapper.java:91)
+		at com.caucho.server.port.Port.accept(Port.java:1179)
+		at com.caucho.server.port.TcpConnection.run(TcpConnection.java:659)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"hmux-127.0.0.1:6800-4$193301249" id="22" CPU Time=0 
+	java.lang.Thread.State: BLOCKED 
+		at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:406)
+		at java.net.ServerSocket.implAccept(ServerSocket.java:462)
+		at java.net.ServerSocket.accept(ServerSocket.java:430)
+		at com.caucho.vfs.QServerSocketWrapper.accept(QServerSocketWrapper.java:91)
+		at com.caucho.server.port.Port.accept(Port.java:1179)
+		at com.caucho.server.port.TcpConnection.run(TcpConnection.java:659)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"hmux-127.0.0.1:6800-3$640610926" id="21" CPU Time=0 
+	java.lang.Thread.State: RUNNABLE 
+		at java.net.PlainSocketImpl.socketAccept(Native Method)
+		at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:408)
+		at java.net.ServerSocket.implAccept(ServerSocket.java:462)
+		at java.net.ServerSocket.accept(ServerSocket.java:430)
+		at com.caucho.vfs.QServerSocketWrapper.accept(QServerSocketWrapper.java:91)
+		at com.caucho.server.port.Port.accept(Port.java:1179)
+		at com.caucho.server.port.TcpConnection.run(TcpConnection.java:659)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"hmux-127.0.0.1:6800-5$2112485300" id="20" CPU Time=0 
+	java.lang.Thread.State: BLOCKED 
+		at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:406)
+		at java.net.ServerSocket.implAccept(ServerSocket.java:462)
+		at java.net.ServerSocket.accept(ServerSocket.java:430)
+		at com.caucho.vfs.QServerSocketWrapper.accept(QServerSocketWrapper.java:91)
+		at com.caucho.server.port.Port.accept(Port.java:1179)
+		at com.caucho.server.port.TcpConnection.run(TcpConnection.java:659)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"http--8080-1$646546269" id="19" CPU Time=327602100 
+	java.lang.Thread.State: BLOCKED 
+		at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:406)
+		at java.net.ServerSocket.implAccept(ServerSocket.java:462)
+		at java.net.ServerSocket.accept(ServerSocket.java:430)
+		at com.caucho.vfs.QServerSocketWrapper.accept(QServerSocketWrapper.java:91)
+		at com.caucho.server.port.Port.accept(Port.java:1179)
+		at com.caucho.server.port.TcpConnection.run(TcpConnection.java:659)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"http--8080-7$761964821" id="18" CPU Time=0 
+	java.lang.Thread.State: RUNNABLE 
+		at java.net.PlainSocketImpl.socketAccept(Native Method)
+		at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:408)
+		at java.net.ServerSocket.implAccept(ServerSocket.java:462)
+		at java.net.ServerSocket.accept(ServerSocket.java:430)
+		at com.caucho.vfs.QServerSocketWrapper.accept(QServerSocketWrapper.java:91)
+		at com.caucho.server.port.Port.accept(Port.java:1179)
+		at com.caucho.server.port.TcpConnection.run(TcpConnection.java:659)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"http--8080-6$1818817679" id="17" CPU Time=0 
+	java.lang.Thread.State: BLOCKED 
+		at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:406)
+		at java.net.ServerSocket.implAccept(ServerSocket.java:462)
+		at java.net.ServerSocket.accept(ServerSocket.java:430)
+		at com.caucho.vfs.QServerSocketWrapper.accept(QServerSocketWrapper.java:91)
+		at com.caucho.server.port.Port.accept(Port.java:1179)
+		at com.caucho.server.port.TcpConnection.run(TcpConnection.java:659)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"http--8080-8$1586499555" id="16" CPU Time=0 
+	java.lang.Thread.State: BLOCKED 
+		at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:406)
+		at java.net.ServerSocket.implAccept(ServerSocket.java:462)
+		at java.net.ServerSocket.accept(ServerSocket.java:430)
+		at com.caucho.vfs.QServerSocketWrapper.accept(QServerSocketWrapper.java:91)
+		at com.caucho.server.port.Port.accept(Port.java:1179)
+		at com.caucho.server.port.TcpConnection.run(TcpConnection.java:659)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-1" id="15" CPU Time=15600100 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:714)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-0" id="14" CPU Time=0 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:714)
+		at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-alarm" id="13" CPU Time=0 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Thread.sleep(Native Method)
+		at com.caucho.util.Alarm$AlarmThread.run(Alarm.java:586)
+"resin-thread-scheduler" id="12" CPU Time=0 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.util.ThreadPool$ScheduleThread.run(ThreadPool.java:912)
+		at java.lang.Thread.run(Thread.java:662)
+"resin-thread-launcher" id="11" CPU Time=0 
+	java.lang.Thread.State: TIMED_WAITING 
+		at java.lang.Object.wait(Native Method)
+		at com.caucho.util.ThreadPool$ThreadLauncher.startConnection(ThreadPool.java:845)
+		at com.caucho.util.ThreadPool$ThreadLauncher.run(ThreadPool.java:868)
+		at java.lang.Thread.run(Thread.java:662)
+"Attach Listener" id="6" CPU Time=0 
+	java.lang.Thread.State: RUNNABLE 
+"Signal Dispatcher" id="5" CPU Time=0 
+	java.lang.Thread.State: RUNNABLE 
+"Finalizer" id="3" CPU Time=31200200 
+	java.lang.Thread.State: WAITING 
+		at java.lang.Object.wait(Native Method)
+		at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:118)
+		at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:134)
+		at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+"Reference Handler" id="2" CPU Time=0 
+	java.lang.Thread.State: WAITING 
+		at java.lang.Object.wait(Native Method)
+		at java.lang.Object.wait(Object.java:485)
+		at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:116)
+"main" id="1" CPU Time=4633229700 
+	java.lang.Thread.State: RUNNABLE 
+		at java.net.SocketInputStream.socketRead0(Native Method)
+		at java.net.SocketInputStream.read(SocketInputStream.java:129)
+		at java.net.SocketInputStream.read(SocketInputStream.java:182)
+		at com.caucho.server.resin.Resin.waitForExit(Resin.java:1270)
+		at com.caucho.server.resin.Resin.main(Resin.java:1372)
+

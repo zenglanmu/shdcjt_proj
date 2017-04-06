@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<common>
+		<jsList>
+			
+			<js desc="weaver">
+				<id>jquery</id>
+				<src>/js/weaver.js</src>
+			</js>
+			<js desc="JQUERY">
+				<id>jquery</id>
+				<src>/js/jquery/jquery.js</src>
+			</js>	
+			<js desc="Jquery weavertabs">
+				<id>jquery.weavertabs</id>
+				<src>/js/jquery/plugins/weavertabs/jquery.weavertabs.js</src>
+			</js>	
+			<js desc="Jquery filetree">
+				<id>jquery.filetree</id>
+				<src>/js/jquery/plugins/filetree/jquery.filetree.js</src>
+			</js>	
+			<js desc="Jquery Corner">
+				<id>jquery.corner</id>
+				<src>/js/jquery/plugins/corner/jquery.corner.js</src>
+			</js>
+			<js desc="Jquery cycle">
+				<id>jquery.cycle</id>
+				<src>/page/element/Slide/resource/js/jquery.cycle.all.js</src>
+			</js>
+			<js desc="Page Drag">
+				<id>drag</id> 
+				<src>/js/homepage/drag.js</src>				
+			</js>	
+				
+			<js desc="提供XMLHTTP对象">
+				<id>xmlextras</id>
+				<src>/js/xmlextras.js</src>
+			</js>
+			<js desc="为视频元素做准备">
+				<id>swfobject</id>
+				<src>/FCKEditor/swfobject.js</src>
+			</js>	
+			<js desc="横条菜单">
+				<id>menuh</id>
+				<src>/js/jquery/plugins/menu/menuh/menuh.js</src>
+			</js>
+			<js desc="纵条菜单">
+				<id>menuv</id>
+				<src>/js/jquery/plugins/menu/menuv/menuv.js</src>
+			</js>
+			<js desc="jquery ui core">
+				<id>jquery.form</id>
+				<src>/js/jquery/ui/ui.core.js</src>
+			</js>
+			<js desc="jquery ui dialog">
+				<id>jquery.form</id>
+				<src>/js/jquery/ui/ui.dialog.js</src>
+			</js>
+			<js desc="bindows">
+				<id>bindows</id>
+				<src>/js/bindows/bindows_gauges.js</src>
+			</js>
+			<js desc="highslide">
+				<id>highslide</id>
+				<src>/page/element/share/highslide/highslide-with-gallery.js</src>
+			</js>
+			<js desc="tooltip提示插件">
+				<id>tooltip</id>
+				<src>/js/jquery/plugins/tooltip/jquery.tooltip.js</src>
+			</js>
+			<js desc="bgiframe">
+				<id>bgiframe</id>
+				<src>/js/jquery/plugins/bgiframe/jquery.bgiframe.pack.js</src>
+			</js>
+					
+						
+		</jsList>
+		<cssList>
+			<css desc="Page">		
+				<id>weaver</id>
+				<src>/css/Weaver.css</src>
+			</css>
+			<css desc="Page">		
+				<id>page</id>
+				<src>/css/page.css</src>
+			</css>
+			<css desc="weavertabs控件">		
+				<id>weavertabs</id>
+				<src>/js/jquery/plugins/weavertabs/weavertabs.css</src>
+			</css>	
+			<css desc="横条菜单">		
+				<id>menuh</id>
+				<src>/js/jquery/plugins/menu/menuh/menuh.css</src>
+			</css>
+			<css desc="纵条菜单">		
+				<id>menuv</id>
+				<src>/js/jquery/plugins/menu/menuv/menuv.css</src>
+			</css>	
+			<css desc="jquery ui dialog">		
+				<id>dialog</id>
+				<src>/js/jquery/ui/ui.dialog.css</src>
+			</css>
+			<css desc="jquery ui theme">		
+				<id>theme</id>
+				<src>/js/jquery/ui/ui.theme.css</src>
+			</css>	
+			<css desc="jquery ui core">		
+				<id>core</id>
+				<src>/js/jquery/ui/ui.core.css</src>
+			</css>	
+			<css desc="highslide">		
+				<id>highslide</id>
+				<src>/page/element/share/highslide/highslide.css</src>
+			</css>	
+			<css desc="tooltip提示插件">
+				<id>tooltip</id>
+				<src>/js/jquery/plugins/tooltip/simpletooltip.css</src>
+			</css>
+		</cssList>
+	</common>
+	<public>
+		<jsList>
+		</jsList>
+		<cssList>
+		</cssList>
+	</public>
+</root>

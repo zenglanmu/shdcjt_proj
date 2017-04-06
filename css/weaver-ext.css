@@ -1,0 +1,386 @@
+/*Ext JS CSS Override*/
+.x-grid3-cell-inner{
+	white-space:normal;
+	FONT-SIZE: 9pt;
+	FONT-FAMILY: Verdana;
+	/**链接折行时回出现鼠标无法点击的情况，需调整LINE-HEIGHT*/
+	/*LINE-HEIGHT: 13pt;*/
+	LINE-HEIGHT: 12pt;
+}
+/*.x-grid3-cell-text-visible .x-grid3-cell-inner{overflow:visible;padding:3px 3px 3px 5px;white-space:normal;}*/
+
+.x-grid3-body .x-grid3-td-numberer {
+	background-image : none;
+}
+.x-grid3-body .x-grid3-td-checker {
+	background-image : none
+}
+.x-grid3-body .x-grid3-row-selected .x-grid3-td-numberer, .x-grid3-body .x-grid3-row-selected .x-grid3-td-checker, .x-grid3-body .x-grid3-row-selected .x-grid3-td-expander {
+	background-image : none
+}
+.x-grid3-cell A {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+.x-grid3-cell A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+
+.x-grid3-cell A:link {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+.x-grid3-cell A:visited {
+	TEXT-DECORATION: underline
+}
+
+
+.x-tree-root-node A {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+.x-tree-root-node A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+
+.x-tree-root-node A:link {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+.x-tree-root-node A:visited {
+	TEXT-DECORATION: underline
+}
+
+/*Ext JS CSS Override*/
+.btn_details{
+	background-image:url('/images/details2.gif') !important;
+}
+.btn_add {
+      background-image:url(/js/extjs/examples/shared/icons/fam/add.gif) !important;
+ }
+.btn_option {
+      background-image:url(/js/extjs/examples/shared/icons/fam/plugin.gif) !important;
+ }
+.btn_remove {
+      background-image:url(/js/extjs/examples/shared/icons/fam/delete.gif) !important;
+}
+.btn_BacthDownload {
+      background-image:url(/js/extjs/examples/shared/icons/fam/bp_btn_recent.gif) !important;
+}
+.btn_list{
+	 background-image:url('/images/docs/list.gif') !important;
+}
+.btn_ShowOrHidden {
+      background-image:url('/images/docs/showorhidden.gif') !important;
+ }
+.btn_word {
+      background-image:url('/images/docs/word.gif') !important;
+}
+.btn_excel {	
+	background-image:url('/images/docs/excel.gif') !important;
+}
+.btn_wps {
+      background-image:url('/images/docs/wps.gif') !important;
+}
+.btn_et {
+      background-image:url('/images/docs/et.gif') !important;
+}
+.btn_html {
+      background-image:url('/images/docs/html.gif') !important;
+}
+
+/*doc*/
+.btn_save{
+	background-image:url(/images/docs/save.gif) !important;
+}
+
+.btn_edit{
+	background-image:url(/images/docs/edit.gif) !important;
+}
+.btn_print{
+	background-image:url('/images/docs/print.gif') !important;
+}
+.btn_share{
+	background-image:url('/images/docs/share.gif') !important;
+}
+.btn_log{
+	background-image:url('/images/docs/log.gif') !important;
+}
+.btn_back{
+	background-image:url('/images/docs/back.gif') !important;
+}
+.btn_reject{
+	background-image:url('/images/docs/reject.gif') !important;
+}
+.btn_refresh{
+	background-image:url('/images/docs/refresh.gif') !important;
+}
+.btn_checkout{
+	background-image:url('/images/docs/checkout.gif') !important;
+}
+
+
+.btn_relateCwork{
+	background-image:url('/images/docs/relateCwork.gif') !important;
+}
+
+.btn_newCwork{
+	background-image:url('/images/docs/newCwork.gif') !important;
+}
+.btn_newWork{
+	background-image:url('/images/docs/newWork.gif') !important;
+}
+.btn_newPlan{
+	background-image:url('/images/docs/newPlan.gif') !important;
+}
+.btn_relateWork{
+	background-image:url('/images/docs/relateWork.gif') !important;
+}
+
+.btn_save{
+	background-image:url('/images/docs/save.gif') !important;
+}
+.btn_draft{
+	background-image:url('/images/docs/draft.gif') !important;
+}
+.btn_preview{
+	background-image:url('/images/docs/preview.gif') !important;
+}
+.btn_tab{
+	background-image:url('/images/tab.gif') !important;
+} 
+.btn_collapseAll{
+	background-image:url('/images/collapse-all.gif') !important;
+}
+.btn_expandAll{
+	background-image:url('/images/expand-all.gif') !important;
+}
+.btn_up{
+	background-image:url('/images/docs/up.gif') !important;
+}
+.btn_down{
+	background-image:url('/images/docs/down.gif') !important;
+}
+.btn_left{
+	background-image:url('/images/docs/left.gif') !important;
+}
+.btn_right{
+	background-image:url('/images/docs/down.gif') !important;
+}
+
+.btn_import{
+	background-image:url('/images/docs/import.gif') !important;
+}
+.btn_rss{
+	background-image:url('/images/docs/rss.gif') !important;
+}
+.btn_Favorite{
+	background-image:url('/images/btnFavorite.gif') !important;
+}
+.btn_help{
+	background-image:url('/images/help2.gif') !important;
+}
+.btn_signature{
+	background-image:url('/images/docs/signature.gif') !important;
+}
+.btn_signature1{
+	background-image:url('/images/docs/signature1.gif') !important;
+}
+.btn_acc{
+	background-image:url('/images/docs/acc.gif') !important;
+}
+.btn_thtemplate{
+	background-image:url('/images/docs/thtemplate.gif') !important;
+}
+.btn_thtemplate1{
+	background-image:url('/images/docs/thtemplate1.gif') !important;
+}
+.btn_displayh{
+	background-image:url('/images/docs/displayh.gif') !important;
+}
+
+/*wf*/
+.btn_wfSave{
+	background-image:url('/images/docs/save.gif') !important;
+}
+.btn_submit{
+	background-image:url('/images/docs/draft.gif') !important;
+}
+.btn_forward{
+	background-image:url('/images/wf/forward.gif') !important;
+}
+.btn_newSMSName{
+	background-image:url('/images/wf/newSMSName.gif') !important;
+}
+.btn_newWFName{
+	background-image:url('/images/wf/newWFName.gif') !important;
+}
+.btn_subnobackName{
+	background-image:url('/images/docs/draft.gif') !important;
+}
+.btn_subbackName{
+	background-image:url('/images/docs/draft.gif') !important;
+}
+.btn_doIntervenor{
+    background-image:url('/images/docs/draft.gif') !important;
+}
+.btn_Supervise{
+	background-image:url('/images/wf/Supervise.gif') !important;
+}
+.btn_ccsubnobackName{
+	background-image:url('/images/docs/draft.gif') !important;
+}
+.btn_doDrawBack{
+	background-image:url('/images/wf/doDrawBack.gif') !important;
+}
+.btn_doRetract{
+	background-image:url('/images/wf/doRetract.gif') !important;
+}
+.btn_doReopen{
+	background-image:url('/images/wf/doReopen.gif') !important;
+}
+.btn_doViewModifyLog{
+	background-image:url('/images/docs/log.gif') !important;
+}
+.btn_rejectName{
+	background-image:url('/images/docs/reject.gif') !important;
+}
+.btn_doDelete{
+	background-image:url('/js/extjs/examples/shared/icons/fam/delete.gif') !important;
+}
+.btn_detele{
+	background-image:url('/js/extjs/examples/shared/icons/fam/delete.gif') !important;
+}
+.btn_back{
+	background-image:url('/images/docs/back.gif') !important;
+}
+.btn_edit{
+	background-image:url('/images/docs/edit.gif') !important;
+}
+.btn_search{
+	background-image:url('/images/docs/search.gif') !important;
+}
+.btn_searchForTitle{
+	background-image:url('/images/search.gif') !important;
+}
+.btn_hiden{
+	background-image:url('/images/docs/hiden.gif') !important;
+}
+.btn_floder_main{
+	background-image:url('/images/floder_main.gif') !important;
+}
+.btn_floder_sub{
+	background-image:url('/images/floder_sub.gif') !important;
+}
+.btn_floder_sec{
+	background-image:url('/images/floder_sec.gif') !important;
+}
+.btn_doOpen{
+	background-image:url('/images/wf/doOpen.gif') !important;
+}
+
+.btn_displayAndHide{
+	background-image:url('/images/wf/displayhide.gif') !important;
+}
+
+.btn_dot{
+	background-image:url('/images/dian.gif') !important;
+}
+.btn_searchAdvice{
+	background-image:url('/images/wf/advice.gif') !important;
+}
+
+/*search bottun*/
+.btn_first{
+	background-image:url('/images/wf/first.gif') !important;
+}
+.btn_next{
+	background-image:url('/images/wf/next.gif') !important;
+}
+.btn_end{
+	background-image:url('/images/wf/end.gif') !important;
+}
+.btn_previous{
+	background-image:url('/images/wf/previous.gif') !important;
+}
+.btn_custom{
+	background-image:url('/images/wf/custom.gif') !important;
+}
+.btn_viewUrl{
+	background-image:url('/images/wf/viewUrl.gif') !important;
+}
+.btn_miniatureDisplay{
+	background-image:url('/images/wf/miniatureDisplay.gif') !important;
+}
+.btn_listDisplay{
+	background-image:url('/images/wf/list.gif') !important;
+}
+.btn_approve{
+	background-image:url('/images/wf/approve.gif') !important;
+}
+.btn_subscribeHistory{
+	background-image:url('/images/wf/subscribeHistory.gif')!important;
+}
+.btn_backSubscrible{
+	background-image:url('/images/wf/backSubscrible.gif')!important;
+}
+.btn_nextStep{
+	background-image:url('/images/wf/go.gif')!important;
+}
+.btn_signReaded{
+	background-image:url('/images/wf/signReaded.gif')!important;
+}
+.btn_treeMode{
+	background-image:url('/images/wf/treeMode.gif')!important;
+}
+.btn_sutra{
+	background-image:url('/images/wf/sutra.gif')!important;
+}
+.btn_organization{
+	background-image:url('/images/wf/organization.gif')!important;
+}
+/*reply doc*/
+.icon_replyDoc {
+    background-image:url('/images/replyDoc/news_general.gif') !important;
+}
+.icon_replyDoc_this {
+    background-image:url('/images/replyDoc/news_this.gif') !important;
+}
+
+.head_toolbar{
+	/*border:1px solid #C3C3C3;*/
+	height:28px; 
+	
+	border:#8CC7CF 1px solid;
+	/*border-bottom:none;*/
+	margin:2 8 0 5;
+}
+.head_toolbar_noViewport{
+	border:1px solid #C3C3C3;
+	margin:2 0 0 0;
+}
+.x-panel-body{
+	
+	/*border:1px solid #8CC7CF;*/
+	border:none;
+}
+.x-toolbar{
+		/*
+		border-color:#8cc7cf!important;
+		*/
+}
+/*.content_ext{
+	border:1px solid #C3C3C3;
+	margin:0 8 0 5;
+}*/
+
+.x-border-layout-ct {
+ 	background:#ffffff;
+}
+
+
+.wfTreeLeafNode{
+	height:19px;
+}
+.wfTreeFolderNode{	
+	border-top:1px solid  #E5E5E5;
+	height:22px;
+}
+
+

@@ -1,0 +1,154 @@
+2017-03-24 18:26:09,603 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 18:26:10,302 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 18:26:13,828 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 18:31:04,636 ERROR ln.LN [Thread: http--8080-4$1795473554] - ln.LN
+java.lang.Exception: lnb is null from cache!
+	at ln.LN.ReadFromFile(LN.java:146)
+	at ln.LN.CkLicense(LN.java:248)
+	at weaver.login.VerifyLogin.getUserCheck(VerifyLogin.java:571)
+	at _jsp._login._verifylogin__jsp._jspService(_verifylogin__jsp.java:238)
+	at com.caucho.jsp.JavaPage.service(JavaPage.java:61)
+	at com.caucho.jsp.Page.pageservice(Page.java:578)
+	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:195)
+	at weaver.filter.PFixFilter.doFilter(PFixFilter.java:52)
+	at com.caucho.server.dispatch.FilterFilterChain.doFilter(FilterFilterChain.java:87)
+	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:187)
+	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:265)
+	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:273)
+	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:682)
+	at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+	at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+	at java.lang.Thread.run(Thread.java:662)
+2017-03-24 19:49:31,153 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 19:49:31,751 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 19:49:36,064 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 19:50:11,515 ERROR ln.LN [Thread: http--8080-4$145680648] - ln.LN
+java.lang.Exception: lnb is null from cache!
+	at ln.LN.ReadFromFile(LN.java:146)
+	at ln.LN.CkLicense(LN.java:248)
+	at weaver.login.VerifyLogin.getUserCheck(VerifyLogin.java:571)
+	at _jsp._login._verifylogin__jsp._jspService(_verifylogin__jsp.java:238)
+	at com.caucho.jsp.JavaPage.service(JavaPage.java:61)
+	at com.caucho.jsp.Page.pageservice(Page.java:578)
+	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:195)
+	at weaver.filter.PFixFilter.doFilter(PFixFilter.java:52)
+	at com.caucho.server.dispatch.FilterFilterChain.doFilter(FilterFilterChain.java:87)
+	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:187)
+	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:265)
+	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:273)
+	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:682)
+	at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+	at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+	at java.lang.Thread.run(Thread.java:662)
+2017-03-24 19:50:32,250 ERROR ln.LN [Thread: http--8080-1$1395221594] - ln.LN
+java.lang.Exception: lnb is null from cache!
+	at ln.LN.ReadFromFile(LN.java:146)
+	at ln.LN.CkLicense(LN.java:248)
+	at weaver.login.VerifyLogin.getUserCheck(VerifyLogin.java:571)
+	at _jsp._login._verifylogin__jsp._jspService(_verifylogin__jsp.java:238)
+	at com.caucho.jsp.JavaPage.service(JavaPage.java:61)
+	at com.caucho.jsp.Page.pageservice(Page.java:578)
+	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:195)
+	at weaver.filter.PFixFilter.doFilter(PFixFilter.java:52)
+	at com.caucho.server.dispatch.FilterFilterChain.doFilter(FilterFilterChain.java:87)
+	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:187)
+	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:265)
+	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:273)
+	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:682)
+	at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+	at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+	at java.lang.Thread.run(Thread.java:662)
+2017-03-24 19:53:35,340 ERROR ln.LN [Thread: http--8080-11$1396567385] - ln.LN
+java.lang.Exception: lnb is null from cache!
+	at ln.LN.ReadFromFile(LN.java:146)
+	at ln.LN.CkLicense(LN.java:248)
+	at weaver.login.VerifyLogin.getUserCheck(VerifyLogin.java:571)
+	at _jsp._login._verifylogin__jsp._jspService(_verifylogin__jsp.java:238)
+	at com.caucho.jsp.JavaPage.service(JavaPage.java:61)
+	at com.caucho.jsp.Page.pageservice(Page.java:578)
+	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:195)
+	at weaver.filter.PFixFilter.doFilter(PFixFilter.java:52)
+	at com.caucho.server.dispatch.FilterFilterChain.doFilter(FilterFilterChain.java:87)
+	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:187)
+	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:265)
+	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:273)
+	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:682)
+	at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+	at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+	at java.lang.Thread.run(Thread.java:662)
+2017-03-24 19:58:18,002 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 19:58:18,287 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 19:58:19,024 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 20:00:52,443 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 20:00:52,736 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 20:00:53,457 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 20:01:51,935 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 20:01:52,220 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 20:01:52,944 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 20:11:21,796 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 20:11:22,098 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 20:11:23,852 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 23:00:16,036 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 23:00:16,329 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 23:00:17,296 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 23:05:51,522 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 23:05:51,830 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 23:05:52,836 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 23:07:50,221 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 23:07:50,525 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 23:07:51,290 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 23:10:41,792 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 23:10:42,085 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 23:10:43,036 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 23:13:31,970 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 23:13:32,272 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 23:13:33,233 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 23:14:17,256 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 23:14:17,540 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 23:14:18,449 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 23:17:06,332 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 23:17:06,631 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 23:17:07,397 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 23:18:23,945 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 23:18:24,255 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 23:18:25,226 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 23:21:08,317 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 23:21:08,601 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 23:21:09,551 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 23:22:41,346 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 23:22:41,635 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 23:22:42,377 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 23:24:44,723 ERROR org.apache.hivemind.impl.RegistryBuilder [Thread:   main] - Error: Module hivemind is duplicated!  Definition in jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml has been ignored in favor of existing definition from jar:file:/D:/weaver/Resin/lib/hivemind.jar!/META-INF/hivemodule.xml.
+2017-03-24 23:24:45,039 INFO  weaver.general.InitServer [Thread:   main] - SystemUpgrade Start.....
+2017-03-24 23:24:46,046 INFO  weaver.general.InitServer [Thread:   main] - end.....
+2017-03-24 23:27:42,577 ERROR weaver.workflow.workflow.WFNodeFieldManager [Thread: http--8080-6$615162770] - weaver.workflow.workflow.WFNodeFieldManager
+java.io.FileNotFoundException: D:\weaver\ecology\filesystem\htmllayout\htmllay40_178_0.html (系统找不到指定的路径。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at java.io.FileInputStream.<init>(FileInputStream.java:79)
+	at java.io.FileReader.<init>(FileReader.java:41)
+	at weaver.workflow.workflow.WFNodeFieldManager.readHtmlFile(WFNodeFieldManager.java:710)
+	at weaver.workflow.html.WFLayoutToHtml.analyzeLayout(WFLayoutToHtml.java:119)
+	at _jsp._workflow._request._workflowaddrequesthtml__jsp._jspService(_workflowaddrequesthtml__jsp.java:97)
+	at com.caucho.jsp.JavaPage.service(JavaPage.java:61)
+	at com.caucho.jsp.Page.pageservice(Page.java:578)
+	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:195)
+	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:97)
+	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:265)
+	at com.caucho.server.webapp.RequestDispatcherImpl.include(RequestDispatcherImpl.java:504)
+	at com.caucho.server.webapp.RequestDispatcherImpl.include(RequestDispatcherImpl.java:368)
+	at com.caucho.jsp.PageContextImpl.include(PageContextImpl.java:1009)
+	at com.caucho.jsp.PageContextImpl.include(PageContextImpl.java:962)
+	at _jsp._workflow._request._addrequestiframe__jsp._jspService(_addrequestiframe__jsp.java:1585)
+	at com.caucho.jsp.JavaPage.service(JavaPage.java:61)
+	at com.caucho.jsp.Page.pageservice(Page.java:578)
+	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:195)
+	at weaver.filter.PFixFilter.doFilter(PFixFilter.java:52)
+	at com.caucho.server.dispatch.FilterFilterChain.doFilter(FilterFilterChain.java:87)
+	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:187)
+	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:265)
+	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:273)
+	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:682)
+	at com.caucho.util.ThreadPool$Item.runTasks(ThreadPool.java:730)
+	at com.caucho.util.ThreadPool$Item.run(ThreadPool.java:649)
+	at java.lang.Thread.run(Thread.java:662)

@@ -1,0 +1,21 @@
+.weavertabs{
+	width:100%;
+	border:1px solid #D9D9D9;	
+	
+}
+.weavertabs-nav{
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+.weavertabs-nav tr td{
+	padding:3 0;
+	text-align:center;	
+	border-right:1px solid #D9D9D9;
+	cursor: pointer;
+	font-size:13px;
+	background:#FFFFFF url(tab.gif) repeat-x scroll 0 0;
+}
+.weavertabs-content div{	
+	display:none;	
+}

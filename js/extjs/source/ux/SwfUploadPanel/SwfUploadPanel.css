@@ -1,0 +1,11 @@
+.SwfUploadPanel_iconAdd {
+	background-image:url('/js/extjs/source/ux/SwfUploadPanel/add.png') !important;
+}
+
+.SwfUploadPanel_iconUpload {
+	background-image:url('/js/extjs/source/ux/SwfUploadPanel/arrow_up.png') !important;
+}
+
+.SwfUploadPanel_iconCancel {
+	background-image:url('/js/extjs/source/ux/SwfUploadPanel/delete.png') !important;
+}

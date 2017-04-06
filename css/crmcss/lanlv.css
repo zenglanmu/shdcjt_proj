@@ -1,0 +1,52 @@
+.outertable{
+	border-collapse:collapse !important;
+	border-style:solid !important;
+	border-color: #005782 !important;
+	border-width:2px !important;
+}
+.reqname{
+	color:#000000 !important;
+	font-size:16pt !important;
+	font-weight:bold !important;
+}
+.maintable{
+	border-collapse:collapse !important
+	border-style:solid !important;
+	border-color: #005782 !important;
+	border-width:0px !important;
+}
+.fname{
+	height: 20px !important;
+	background-color: #C4E1FF !important;
+	font-size:10pt !important;
+	border-style:solid !important;
+	border-color: #005782 !important;
+	border-width:1px !important;
+}
+.fvalue{
+	height: 20px !important;
+	background-color: #FFFFFF !important;
+	border-style:solid !important;
+	border-color: #005782 !important;
+	border-width:1px !important;
+}
+.detailtable{
+	border-collapse:collapse !important;
+	border-style:solid !important;
+	border-color: #005782 !important;
+	border-width:1px !important;
+}
+.detailtitle{
+	height: 20px !important;
+	font-size:10pt !important;
+	background-color: #C4E1FF !important;
+	border-style:solid !important;
+	border-color: #005782 !important;
+	border-width:1px !important;
+}
+.detailfield{
+	background-color: #FFFFFF !important;
+	border-bottom-style:solid !important;
+	border-bottom-color: #005782 !important;
+	border-bottom-width:1px !important;
+}

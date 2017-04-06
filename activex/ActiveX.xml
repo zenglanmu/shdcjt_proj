@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="gbk" ?>
+<activexs>
+	<activex groupid="">
+		<name>Office 控件</name>
+		<clsid>23739A7E-5741-4D1C-88D5-D50B18F7C347</clsid>
+		<progid>iWebOffice2003.iWebOffice</progid>
+		<clsname>iWebOffice Control</clsname>
+		<version>8.5.0.2</version>
+        <install>
+			<url>/weaverplugin/iWebOffice.exe</url>
+			<size>919K</size>
+		</install>
+		<explain>用于知识管理中Office文档的显示，编辑。</explain>
+		<checkpageurl>/activex/TestByOffice.jsp</checkpageurl>
+		<checkver>0</checkver>
+	</activex>
+	<activex groupid="">
+		<name>图形化流程控件</name>
+		<clsid>15261F9B-22CC-4692-9089-0C40ACBDFDD8</clsid>
+		<progid>CHINAEXCELWEB.FormvwCtrl.1</progid>
+		<clsname>ChinaExcelWeb Control</clsname>
+		<version>4.0.0.0</version>
+		<install>
+			<url>/weaverplugin/chinaexcel.exe</url>
+			<size>2.54M</size>
+		</install>
+		<explain>用于流程模板模式的展现和模板的设计。</explain>
+		<checkpageurl>/activex/TestByChinaExcel.jsp</checkpageurl>
+		<checkver>1</checkver>
+	</activex>
+	<activex groupid="">
+		<name>报表控件</name>
+		<clsid>008BBE7E-C096-11D0-B4E3-00A0C901D681</clsid>
+		<progid>TeeChart.TChart</progid>
+		<clsname>TeeChart Pro Activex control</clsname>
+		<version>4.0.0.7</version>
+		<install>
+			<url>/weaverplugin/teechart.exe</url>
+			<size>607K</size>
+		</install>
+		<explain>用于报表柱状图、圆饼图、线性图和甘特图的显示。</explain>
+		<checkpageurl>/activex/TestByReport.jsp</checkpageurl>
+		<checkver>0</checkver>
+	</activex>
+	<group id="1">
+		<name>E-cology控件设置工具</name>
+		<install>
+			<url>/weaverplugin/EcologyPlugin.zip</url>
+			<size>4.99M</size>
+		</install>
+		<explain>包含图形化流程控件、Office控件、报表控件安装以及E-cology相关设置工具，可以重复设置。</explain>
+        <version>1.0.0.0</version>
+        <checkver>0</checkver>
+	</group>
+	<activex groupid="">
+		<name>流程图控件</name>
+		<clsid>CAFEEFAC-0013-0001-0004-ABCDEFFEDCBA</clsid>
+		<progid>JavaWebStart.isInstalled</progid>
+		<clsname>Java Runtime Environment</clsname>
+		<version>1.6.0.20</version>
+		<install>
+			<url>/resource/j2re-1_3_1_04-windows-i586.exe</url>
+			<size>13.8M</size>
+		</install>
+		<explain>用于流程路径设置中流程图编辑。</explain>
+		<checkpageurl>/activex/TestByJRE.jsp</checkpageurl>
+		<checkver>0</checkver>
+	</activex>
+</activexs>

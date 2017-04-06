@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GBK"?>
+<module id="action" version="1.0.0">
+	<service-point id="WorkflowToDoc" interface="weaver.interfaces.workflow.action.Action">
+        <invoke-factory>
+            <construct class="weaver.interfaces.workflow.action.WorkflowToDoc">
+			</construct>
+        </invoke-factory>
+    </service-point>	
+</module>
+

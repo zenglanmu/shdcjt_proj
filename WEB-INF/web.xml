@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN" "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+
+   <web-app>
+	<!--
+	<filter>
+		<filter-name>CompressingFilter</filter-name>
+		<filter-class>com.planetj.servlet.filter.compression.CompressingFilter</filter-class>
+		<init-param>
+			<param-name>includeContentTypes</param-name>
+			<param-value>text/html,text/xml,text/css,text/javascript</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>CompressingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	-->
+
+ <filter>
+	<filter-name>Compress</filter-name>
+	<filter-class>weaver.filter.GZIPFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+	<filter-name>Compress</filter-name>
+	<url-pattern>*.js</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+	<filter-name>Compress</filter-name>
+	<url-pattern>*.css</url-pattern>
+  </filter-mapping>
+
+  <filter>
+	<filter-name>resin-ln</filter-name>
+	<filter-class>ln.LNFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+	<filter-name>resin-ln</filter-name>
+	<url-pattern>*.*</url-pattern>
+  </filter-mapping>
+
+   <servlet>
+        <servlet-name>InitServer</servlet-name>
+        <servlet-class>weaver.general.InitServer</servlet-class>
+        <init-param>
+         <param-name>serverName</param-name>
+         <param-value>ecology</param-value>
+       </init-param>
+	   <load-on-startup>1</load-on-startup>
+    </servlet>
+	<servlet>
+        <servlet-name>dwr-invoker</servlet-name>
+        <servlet-class>uk.ltd.getahead.dwr.DWRServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!-- if you need web service support ,uncomment the following -->
+    <!--
+    <servlet>
+       <servlet-name>AxisServlet</servlet-name>
+       <servlet-class>
+           org.apache.axis.transport.http.AxisServlet
+       </servlet-class>
+       <init-param>
+         <param-name>consumer</param-name>
+         <param-value>*</param-value>
+       </init-param>
+     </servlet>
+     -->
+	<servlet>
+	    <servlet-name>InitDebug</servlet-name>
+	    <servlet-class>com.weaver.onlinedebug.webapp.InitDebug</servlet-class>
+	    <load-on-startup>4</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SplitPageXmlServlet</servlet-name>
+        <servlet-class>weaver.common.util.taglib.SplitPageXmlServlet</servlet-class>
+    </servlet>
+    
+     <servlet>
+        <servlet-name>SplitPageXmlServletNew</servlet-name>
+        <servlet-class>weaver.common.util.taglib.SplitPageXmlServletNew</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FileDownload</servlet-name>
+        <servlet-class>weaver.file.FileDownload</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DownloadDeptLayoutServlet</servlet-name>
+        <servlet-class>weaver.org.layout.DownloadDeptLayoutServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DownloadWFLayoutServlet</servlet-name>
+        <servlet-class>weaver.workflow.layout.DownloadWFLayoutServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ShowDepLayoutToPicServlet</servlet-name>
+        <servlet-class>weaver.org.layout.ShowDepLayoutToPicServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ShowDocsImageServlet</servlet-name>
+        <servlet-class>weaver.docs.docs.ShowDocsImageServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ShowImgServlet</servlet-name>
+        <servlet-class>weaver.album.ShowImgServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HomePageServlet</servlet-name>
+        <servlet-class>weaver.homepage.HomepageCreateImage</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>Admin</servlet-name>
+        <servlet-class>org.logicalcobwebs.proxool.admin.servlet.AdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Admin</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+
+    <!-- if you need web service support ,uncomment the following -->
+    <!--
+     <servlet-mapping>
+       <servlet-name>AxisServlet</servlet-name>
+       <url-pattern>/ws/WSServlet</url-pattern>
+     </servlet-mapping>
+
+     <servlet-mapping>
+       <servlet-name>AxisServlet</servlet-name>
+       <url-pattern>*.jws</url-pattern>
+     </servlet-mapping>
+
+     <servlet-mapping>
+       <servlet-name>AxisServlet</servlet-name>
+       <url-pattern>/ws/*</url-pattern>
+     </servlet-mapping>     
+    -->
+    <servlet-mapping>
+        <servlet-name>dwr-invoker</servlet-name>
+        <url-pattern>/dwr/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SplitPageXmlServlet</servlet-name>
+        <url-pattern>/weaver/weaver.common.util.taglib.SplitPageXmlServlet</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>SplitPageXmlServletNew</servlet-name>
+        <url-pattern>/weaver/weaver.common.util.taglib.SplitPageXmlServletNew</url-pattern>
+    </servlet-mapping>
+    
+    
+	<servlet-mapping>
+        <servlet-name>FileDownload</servlet-name>
+        <url-pattern>/weaver/weaver.file.FileDownload</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DownloadDeptLayoutServlet</servlet-name>
+        <url-pattern>/weaver/weaver.org.layout.DownloadDeptLayoutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DownloadWFLayoutServlet</servlet-name>
+        <url-pattern>/weaver/weaver.workflow.layout.DownloadWFLayoutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShowDepLayoutToPicServlet</servlet-name>
+        <url-pattern>/weaver/weaver.org.layout.ShowDepLayoutToPicServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShowDocsImageServlet</servlet-name>
+        <url-pattern>/weaver/weaver.docs.docs.ShowDocsImageServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShowImgServlet</servlet-name>
+        <url-pattern>/weaver/weaver.album.ShowImgServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HomePageServlet</servlet-name>
+        <url-pattern>/weaver/weaver.homepage.HomepageCreateImage</url-pattern>
+    </servlet-mapping>
+
+         <servlet>
+		<servlet-name>WorkflowXmlParser</servlet-name>
+		<servlet-class>weaver.workflow.layout.WorkflowXmlParser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WorkflowXmlParser</servlet-name>
+		<url-pattern>/weaver/weaver.workflow.layout.WorkflowXmlParser</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>WorkflowDesignOperatoinServlet</servlet-name>
+		<servlet-class>weaver.workflow.layout.WorkflowDesignOperatoinServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WorkflowDesignOperatoinServlet</servlet-name>
+		<url-pattern>/weaver/weaver.workflow.layout.WorkflowDesignOperatoinServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ShowWorkFlow</servlet-name>
+		<servlet-class>weaver.workflow.workflow.ShowWorkFlow</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowWorkFlow</servlet-name>
+		<url-pattern>/weaver/weaver.workflow.workflow.ShowWorkFlow</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ExcelOut</servlet-name>
+        <servlet-class>weaver.file.ExcelOut</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExcelOut</servlet-name>
+		<url-pattern>/weaver/weaver.file.ExcelOut</url-pattern>
+	</servlet-mapping>
+
+    <servlet>
+        <servlet-name>MakeValidateCode</servlet-name>
+        <servlet-class>weaver.file.MakeValidateCode</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MakeValidateCode</servlet-name>
+        <url-pattern>/weaver/weaver.file.MakeValidateCode</url-pattern>
+    </servlet-mapping>
+
+	 <servlet>
+        <servlet-name>CreateExcelServer</servlet-name>
+        <servlet-class>weaver.common.util.taglib.CreateExcelServer</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateExcelServer</servlet-name>
+        <url-pattern>/weaver/weaver.common.util.taglib.CreateExcelServer</url-pattern>
+    </servlet-mapping>
+
+	 <servlet>
+         <servlet-name>SignatureDownLoad</servlet-name>
+         <servlet-class>weaver.file.SignatureDownLoad</servlet-class>
+     </servlet>
+     <servlet-mapping>
+          <servlet-name>SignatureDownLoad</servlet-name>
+          <url-pattern>/weaver/weaver.file.SignatureDownLoad</url-pattern>
+     </servlet-mapping>
+
+      <servlet>
+           <servlet-name>ImgFileDownload</servlet-name>
+           <servlet-class>weaver.file.ImgFileDownload</servlet-class>
+       </servlet>
+       <servlet-mapping>
+            <servlet-name>ImgFileDownload</servlet-name>
+             <url-pattern>/weaver/weaver.file.ImgFileDownload</url-pattern>
+       </servlet-mapping>
+
+    <mime-mapping>
+       <extension>xsd</extension>
+       <mime-type>text/xml</mime-type>
+    </mime-mapping>
+   </web-app>

@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=GBK"%>
+<%@ page import="java.util.*,weaver.general.Util"%>
+<%@ page import="weaver.file.Prop" %>
+<%@ include file="/systeminfo/init.jsp" %>
+<jsp:useBean id="rs" class="weaver.conn.RecordSet" scope="page" />
+<jsp:useBean id="BiddingApply" class="weaver.createWorkflow.SAP.BiddingApply" scope="page" />
+<jsp:useBean id="BiddingFile" class="weaver.createWorkflow.SAP.BiddingFile" scope="page" />
+<jsp:useBean id="BiddingPlan" class="weaver.createWorkflow.SAP.BiddingPlan" scope="page" />
+<jsp:useBean id="BiddingResult" class="weaver.createWorkflow.SAP.BiddingResult" scope="page" />
+<jsp:useBean id="QuasiInvestmentProject" class="weaver.createWorkflow.SAP.QuasiInvestmentProject" scope="page" />
+
+
+<jsp:useBean id="TargetCost" class="test.TargetCost" scope="page" />
+<jsp:useBean id="ContractApproval" class="test.ContractApproval" scope="page" />
+<jsp:useBean id="SupplementaryAgreement" class="test.SupplementaryAgreement" scope="page" />
+<jsp:useBean id="NonContractApproval" class="test.NonContractApproval" scope="page" />
+<jsp:useBean id="ContractPlanning" class="test.ContractPlanning" scope="page" />
+<jsp:useBean id="DesignChange" class="test.DesignChange" scope="page" />
+<jsp:useBean id="ProjectChange" class="test.ProjectChange" scope="page" />
+<jsp:useBean id="ContractSettlement" class="test.ContractSettlement" scope="page" />
+<jsp:useBean id="ContractPayment" class="test.ContractPayment" scope="page" />
+<jsp:useBean id="TenderResult" class="test.TenderResult" scope="page" />
+
+
+
+// TargetCost.execute();
+// out.print("TargetCost success==========="+ System.currentTimeMillis() +"===================");
+
+// ContractApproval.execute();
+// out.print("ContractApproval success==========="+ System.currentTimeMillis() +"===================");
+
+// SupplementaryAgreement.execute();
+// out.print("SupplementaryAgreement success==========="+ System.currentTimeMillis() +"===================");
+
+// NonContractApproval.execute();
+// out.print("NonContractApproval success==========="+ System.currentTimeMillis() +"===================");
+
+// ContractPlanning.execute();
+// out.print("ContractPlanning success==========="+ System.currentTimeMillis() +"===================");
+
+// DesignChange.execute();
+// out.print("DesignChange success==========="+ System.currentTimeMillis() +"===================");
+
+// ProjectChange.execute();
+// out.print("ProjectChange success==========="+ System.currentTimeMillis() +"===================");
+
+// ContractSettlement.execute();
+// out.print("ContractSettlement success==========="+ System.currentTimeMillis() +"===================");
+
+// ContractPayment.execute();
+// out.print("ContractPayment success==========="+ System.currentTimeMillis() +"===================");
+
+TenderResult.execute();
+out.print("TenderResult success==========="+ System.currentTimeMillis() +"===================");
+
+
+dcmhyy2015
+
+root
+123qwe!@#

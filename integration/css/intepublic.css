@@ -1,0 +1,62 @@
+.navigation {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	margin: 0px;	
+}
+.navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 4px;
+}
+.navigation li {
+	display: inline;
+	background-image: url("/integration/images/btn_01.png");
+	width: 120px;
+	font-weight: bold;
+}
+.navigation a:link, .navigation a:visited { 
+	margin-right: 2px;
+	padding: 3px 10px 2px 10px; 
+	width: 120px;
+	font-weight: bold;
+	text-decoration: none;
+	border: 0px;
+	color: white;
+}
+.navigation a:hover {
+	border: 0px;
+	background-image: url("/integration/images/btn_02.png");
+	color: white !important;
+}
+.selectedli,.selectedli a
+{
+	background-image: url("/integration/images/btn_02.png") !important;
+	color: white !important;
+}
+.selectmax_width
+{
+	width: 200px;
+	margin-right: 0px;
+}
+textarea
+{
+	width: 550px;
+	height:40px;
+}
+.marginTop0{
+	margin-top: 0px !important;
+}
+.tdcenter
+{
+	text-align: center;
+	vertical-align: middle !important;
+}
+.shownone
+{
+	display: none;
+}
+.publicinputwidth
+{
+	width: 150px
+}

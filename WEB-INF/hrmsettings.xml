@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312"?>
+<HrmSettings>
+  <birthremindmode>1</birthremindmode>
+  <birthremindperiod>3</birthremindperiod>
+  <birthvalid>1</birthvalid>
+  <congratulation>祝$生日快乐</congratulation>
+  <dynapasslen>6</dynapasslen>
+  <firmcode>10</firmcode>
+  <minPasslen>1</minPasslen>
+  <needdynapass>0</needdynapass>
+  <needusb>0</needusb>
+  <usbType>0</usbType>
+  <needvalidate>0</needvalidate>
+  <relogin>1</relogin>
+  <remindperiod>30</remindperiod>
+  <usercode>13</usercode>
+  <valid>1</valid>
+  <validatenum>4</validatenum>
+  <validatetype>0</validatetype>
+</HrmSettings>
+
