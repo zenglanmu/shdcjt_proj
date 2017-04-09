@@ -1,10 +1,418 @@
 <?xml version="1.0" encoding="GBK"?>
 <module id="action" version="1.0.0">
-	<service-point id="WorkflowToDoc" interface="weaver.interfaces.workflow.action.Action">
-        <invoke-factory>
-            <construct class="weaver.interfaces.workflow.action.WorkflowToDoc">
+	<service-point id="WorkflowToDoc"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.interfaces.workflow.action.WorkflowToDoc">
 			</construct>
-        </invoke-factory>
-    </service-point>	
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="CreateWorkPlanConfirmWfAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.interfaces.workflow.action.CreateWorkPlanConfirmWfAction">
+			</construct>
+		</invoke-factory>
+	</service-point>
+	<service-point id="MeetingAppleReMindAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.interfaces.workflow.action.MeetingAppleReMindAction" />
+		</invoke-factory>
+	</service-point>
+	<service-point id="MeetingCancelRemindAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.interfaces.workflow.action.MeetingCancelRemindAction" />
+		</invoke-factory>
+	</service-point>
+	<service-point id="CarUsedReimindAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.interfaces.workflow.action.CarUsedReimindAction" />
+		</invoke-factory>
+	</service-point>
+	<service-point id="CarCancelReimindAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.interfaces.workflow.action.CarCancelReimindAction" />
+		</invoke-factory>
+	</service-point>
+	<service-point id="CarUsedReimindBefore30minAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.interfaces.workflow.action.CarUsedReimindBefore30minAction" />
+		</invoke-factory>
+	</service-point>
+	<service-point id="UpdateCarStatusToApproveAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.interfaces.workflow.action.UpdateCarStatusToApproveAction" />
+		</invoke-factory>
+	</service-point>
+	<service-point id="UpdateCarStatusToAccessAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.interfaces.workflow.action.UpdateCarStatusToAccessAction" />
+		</invoke-factory>
+	</service-point>
+	<service-point id="UpdateCarStatusToCancelAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.interfaces.workflow.action.UpdateCarStatusToCancelAction" />
+		</invoke-factory>
+	</service-point>
+	<service-point id="MeetingAppleServicerRemind"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.interfaces.workflow.action.MeetingAppleServicerRemind">
+			</construct>
+		</invoke-factory>
+	</service-point>
+	<service-point id="MeetingCancelServicerRemind"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.interfaces.workflow.action.MeetingCancelServicerRemind">
+			</construct>
+		</invoke-factory>
+	</service-point>
+	<service-point id="AddMeeting_TZAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.interfaces.workflow.action.AddMeeting_TZ">
+			</construct>
+		</invoke-factory>
+	</service-point>
+	<service-point id="MeetingAppleReMindActionWXSP"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.interfaces.workflow.action.MeetingAppleReMindActionWXSP">
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+
+	<service-point id="NkSubmitWorkflow"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.interfaces.workflow.action.NkSubmitWorkflowAction">
+			</construct>
+		</invoke-factory>
+	</service-point>
+	<service-point id="NkBackWorkflow"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.interfaces.workflow.action.NkBackWorkflowAction">
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="NKFundPaymentAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.workflow.action.NKFundPaymentAction"></construct>
+		</invoke-factory>
+	</service-point>
+	<service-point id="NKFundPaymentProcessReturnAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.workflow.action.NKFundPaymentProcessReturnAction"></construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="BiddingPlanAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.createWorkflow.SAP.action.BiddingPlanAction"></construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="BiddingApplyAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.createWorkflow.SAP.action.BiddingApplyAction"></construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="BiddingFileAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.createWorkflow.SAP.action.BiddingFileAction"></construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="BiddingResultAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.createWorkflow.SAP.action.BiddingResultAction"></construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="QuasiInvestmentProjectAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.createWorkflow.SAP.action.QuasiInvestmentProjectAction"></construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="BiddingPlanTuiHuiAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.createWorkflow.SAP.action.BiddingPlanTuiHuiAction"></construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="BiddingApplyTuiHuiAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.createWorkflow.SAP.action.BiddingApplyTuiHuiAction"></construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="BiddingFileTuiHuiAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="weaver.createWorkflow.SAP.action.BiddingFileTuiHuiAction"></construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="BiddingResultTuiHuiAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.createWorkflow.SAP.action.BiddingResultTuiHuiAction"></construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="QuasiInvestmentProjectTuiHuiAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct
+				class="weaver.createWorkflow.SAP.action.QuasiInvestmentProjectTuiHuiAction"></construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="ContractApprovalAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.ContractNoAction">
+				<set property="requestName" value="ZDC_CO_CONT_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+
+	<service-point id="ContractApprovalRollbackAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.ContractNoRollbackAction">
+				<set property="requestName" value="ZDC_CO_CONT_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="NonContractApprovalAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.ContractNoAction">
+				<set property="requestName" value="ZDC_CO_NCONT_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+
+	<service-point id="NonContractApprovalRollbackAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.ContractNoRollbackAction">
+				<set property="requestName" value="ZDC_CO_NCONT_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+
+	<service-point id="ContractPaymentAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyAction">
+				<set property="requestName" value="ZDC_CO_POR_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+
+	<service-point id="ContractPaymentRollbackAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyRollbackAction">
+				<set property="requestName" value="ZDC_CO_POR_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="SupplementaryAgreementAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyAction">
+				<set property="requestName" value="ZDC_CO_SIDAG_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+
+	<service-point id="SupplementaryAgreementRollbackAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyRollbackAction">
+				<set property="requestName" value="ZDC_CO_SIDAG_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="ContractPlanningAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyAction">
+				<set property="requestName" value="ZDC_CO_CN_PLAN_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+
+	<service-point id="ContractPlanningRollbackAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyRollbackAction">
+				<set property="requestName" value="ZDC_CO_CN_PLAN_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="DesignChangeBeforeAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyAction">
+				<set property="requestName" value="ZDC_CO_REV_RS_S" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="DesignChangeAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyAction">
+				<set property="requestName" value="ZDC_CO_REV_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="DesignChangeBeforeRollbackAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyRollbackAction">
+				<set property="requestName" value="ZDC_CO_REV_RS_S" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="DesignChangeRollbackAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyRollbackAction">
+				<set property="requestName" value="ZDC_CO_REV_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="ProjectChangeBeforeAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyAction">
+				<set property="requestName" value="ZDC_CO_SET_OSVR_RS_S" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="ProjectChangeAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyAction">
+				<set property="requestName" value="ZDC_CO_SET_OSVR_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="ProjectChangeBeforeRollbackAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyRollbackAction">
+				<set property="requestName" value="ZDC_CO_SET_OSVR_RS_S" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+
+	<service-point id="ProjectChangeRollbackAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyRollbackAction">
+				<set property="requestName" value="ZDC_CO_SET_OSVR_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+
+	<service-point id="ContractSettlementAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyAction">
+				<set property="requestName" value="ZDC_CO_SET_ROOT_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+
+	<service-point id="ContractSettlementRollbackAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyRollbackAction">
+				<set property="requestName" value="ZDC_CO_SET_ROOT_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+	<service-point id="ContractPaymentAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyAction">
+				<set property="requestName" value="ZDC_CO_POR_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+
+	<service-point id="ContractPaymentRollbackAction"
+		interface="weaver.interfaces.workflow.action.Action">
+		<invoke-factory>
+			<construct class="test.callback.DBKeyRollbackAction">
+				<set property="requestName" value="ZDC_CO_POR_RS" />
+			</construct>
+		</invoke-factory>
+	</service-point>
+
+
 </module>
 
